@@ -1,0 +1,16 @@
+.container-home {
+    max-width: 400px;
+}
+
+.image {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-bottom: 50px;
+}
