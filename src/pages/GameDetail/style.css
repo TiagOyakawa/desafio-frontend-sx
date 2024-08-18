@@ -1,0 +1,82 @@
+.game-detail{
+    padding: 20px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .game-detail .game {
+    width: 800px;
+    height: auto;
+    text-align: left;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+  }
+
+  .game-detail .game img {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .game-detail .game .game-image--animation {
+    position: relative;
+    top: -5px;
+    margin: auto;
+    transition: all .2s ease;
+    width: 100%;
+    -webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 70%);
+            clip-path: polygon(0 100%, 0 0, 100% 0, 100% 70%);
+    margin-bottom: 50px;
+  }
+  .game-detail .game .game-image--animation:hover {
+    -webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 100%);
+            clip-path: polygon(0 100%, 0 0, 100% 0, 100% 100%);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  
+  .game-detail .game h1 {
+    line-height: 20px;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .game-detail .game-text{
+    margin-bottom: 60px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    border-bottom: 1px solid;
+    border-color: #dfdfdf;
+    padding-bottom: 40px;
+  }
+
+  .header-image {
+    height: 70px;
+  }
+
+  .header-icon {
+    width: 30px;
+  }
+
+  .menu {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .describe {
+    padding: 20px;
+    padding-top: 20px;
+    text-align: center;
+  }
