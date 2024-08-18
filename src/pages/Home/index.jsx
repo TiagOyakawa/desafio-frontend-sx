@@ -6,8 +6,8 @@ function Home() {
     return (
         <div className='container-home'>
             <img src={SxLogo} alt="Logo Sx" className='image' />
-            <h1 className='title'>Bem vindo !</h1>
-            <p className='text'>Junte-se a milhões de jogadores e faça novos amigos! Explore um mundo de possibilidades e torne-se um mestre dos games. A diversão está apenas um clique de distância.</p>
+            <h1 className='title'>Welcome !</h1>
+            <p className='text'>Join millions of players and make new friends! Explore a world of possibilities and become a gaming master. Fun is just a click away.</p>
             <a className='button' href="/games">Play now</a>
         </div>
     )
