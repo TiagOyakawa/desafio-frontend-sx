@@ -77,3 +77,24 @@ body {
     font-size: 1.25rem;
   }
 }
+
+
+/* unvisited link */
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(0, 0, 0);
+}
+
+/* selected link */
+a:active {
+  color: rgb(0, 0, 0);
+}

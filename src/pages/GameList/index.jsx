@@ -29,14 +29,16 @@ function GameList() {
             </div>
             <div className="games">
                 {games.map(game => (
-                    <div className="game" key={game.id}>
-                        <img src={game.thumbnail} alt={`Game Thumbnail ${game.title}`} className='image' />
-                        <h1>{game.title}</h1>
-                        <p>{game.publisher}</p>
-                        <p>{game.developer}</p>
-                        <p>{game.platform}</p>
-                        <p>{game.genre}</p>
-                    </div>
+                    <a href={`/games/detail/${game.id}`}>
+                        <div className="game" key={game.id}>
+                            <img src={game.thumbnail} alt={`Game Thumbnail ${game.title}`} className='image' />
+                            <h1>{game.title}</h1>
+                            <p>{game.publisher}</p>
+                            <p>{game.developer}</p>
+                            <p>{game.platform}</p>
+                            <p>{game.genre}</p>
+                        </div>
+                    </a>
                 ))}
             </div>
         </div>
