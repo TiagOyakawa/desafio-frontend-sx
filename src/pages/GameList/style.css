@@ -42,10 +42,19 @@
   header {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    border-bottom: 1px solid;
+    border-color: #dfdfdf;
+    padding-bottom: 40px;
   }
 
   .header-image {
-    width: 100px;
+    height: 70px;
+  }
+
+  .header-icon {
+    width: 30px;
   }
 
   .menu {
@@ -53,4 +62,10 @@
     list-style: none;
     gap: 50px;
     align-items: center;
+  }
+
+  .describe {
+    padding: 20px;
+    padding-top: 20px;
+    text-align: center;
   }

@@ -67,6 +67,10 @@ body {
   background-position: right center;
 }
 
+.button--small{
+  max-width: 50px;
+}
+
 @media (min-width: 768px) {
   button {
     padding: .75rem 3rem;
